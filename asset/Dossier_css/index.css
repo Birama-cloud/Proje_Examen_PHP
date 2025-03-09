@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Centrer les liens dans la nav */
+  gap: 20px; /* Espacement entre les liens */
+  flex: 1; /* Permet d'étendre la nav pour utiliser toute la largeur disponible */
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+nav .connexion {
+  color: white;
+  background: darkred;
+  padding: 2px;
+  border-radius: 15px;
+  
+}
+.hero {
+  padding-top: 100px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: none;
+  box-shadow: black;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  border-color: #7b0202;
+  border: 5px;
+  outline: 2px solid;
+  outline-color: #7b0202;
+  
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+line-1 * {
+  box-sizing: border-box;
+}
+.line-1 {
+  margin-top: -5px;
+  border-style: solid;
+  border-color: #7b0202;
+  border-width: 5px 0 0 0;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0.138deg) scale(1, 1);
+}
+
+.box-line {
+  width: 200px;
+  height: 3px;
+  background: #7b0202;
+  margin: 0 auto 10px; 
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: gray;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2{
+    color: white; 
+}
+ h3 { 
+    color: #333;
+ }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background: darkred;
+    color: white;
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: darkred;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+canvas {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+}
