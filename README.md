@@ -40,3 +40,7 @@ Interface intuitive et conviviale.
 
 Notifications automatiques par e-mail.
 
+7- Pour les connexions veuilez cliquer sur les liens suivants :
+-lien Figma : https://www.figma.com/design/Skws6BMzBExyWHmfJsyJ27/Projet-PHP?node-id=0-1&t=y0fFy5a5jr1IaXz3-1
+-lien Alwaysdata : https://sencar.alwaysdata.net/
+
